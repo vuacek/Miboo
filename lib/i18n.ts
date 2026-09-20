@@ -49,6 +49,8 @@ export type Dictionary = {
     sizeM: string
     sizeL: string
     milkNote: string
+    showMore: string
+    showLess: string
     categories: Category[]
   }
   gallery: {
@@ -129,6 +131,8 @@ export const translations: Record<Lang, Dictionary> = {
       sizeM: "M",
       sizeL: "L",
       milkNote: "Ovesné mléko +15 Kč · Bezlaktózové mléko +15 Kč",
+      showMore: "Zobrazit celé menu",
+      showLess: "Zobrazit méně",
       categories: [
         {
           name: "Bubble Tea",
@@ -310,6 +314,8 @@ export const translations: Record<Lang, Dictionary> = {
       sizeM: "M",
       sizeL: "L",
       milkNote: "Oat milk +15 CZK · Lactose-free milk +15 CZK",
+      showMore: "Show full menu",
+      showLess: "Show less",
       categories: [
         {
           name: "Bubble Tea",
