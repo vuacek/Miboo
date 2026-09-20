@@ -116,7 +116,7 @@ export const translations: Record<Lang, Dictionary> = {
       badge: "Bubble tea & čerstvé nápoje v Praze",
       titleLead: "Osvěžení, které si",
       titleHighlight: "zamiluješ",
-      desc: "V Miboo připravujeme poctivý bubble tea, svěží limonády, voňavou kávu a ovocné smoothie. Přijď si vychutnat kousek radosti do centra Prahy.",
+      desc: "V Miboo připravujeme poctivý bubble tea, hedvábnou matchu, voňavou kávu a ovocné smoothie. Přijď si vychutnat kousek radosti do centra Prahy.",
       ctaMenu: "Prohlédnout menu",
       ctaLocation: "Kde nás najdete",
       address: "Husova 8, Praha 1",
@@ -247,7 +247,7 @@ export const translations: Record<Lang, Dictionary> = {
         "Nabídka nápojů shora",
         "Příprava bubble tea baristou",
         "Přátelé s nápoji v centru Prahy",
-        "Smoothie a limonáda z čerstvého ovoce",
+        "Smoothie a matcha latte z čerstvého ovoce",
       ],
     },
     hours: {
@@ -286,7 +286,7 @@ export const translations: Record<Lang, Dictionary> = {
         {
           name: "Jakub M.",
           rating: 5,
-          text: "Skvělá limonáda s yuzu a super poloha v centru. Chodím sem pravidelně na kávu.",
+          text: "Skvělá matcha latte a super poloha v centru. Chodím sem pravidelně na kávu.",
         },
         {
           name: "Anna K.",
@@ -298,7 +298,7 @@ export const translations: Record<Lang, Dictionary> = {
       starsLabel: (rating) => `Hodnocení ${rating} z 5`,
     },
     footer: {
-      tagline: "Bubble tea, limonáda, káva a smoothie v srdci Prahy.",
+      tagline: "Bubble tea, mléčné čaje, matcha, káva a smoothie v srdci Prahy.",
       contactTitle: "Kontakt",
       menuTitle: "Menu",
       menuItems: ["Winter Specials", "Bubble Tea", "Milk Tea", "Matcha", "Smoothies", "Hot Drinks"],
@@ -322,7 +322,7 @@ export const translations: Record<Lang, Dictionary> = {
       badge: "Bubble tea & fresh drinks in Prague",
       titleLead: "Refreshment you will",
       titleHighlight: "love",
-      desc: "At Miboo we craft proper bubble tea, crisp lemonades, aromatic coffee and fruity smoothies. Come enjoy a little bit of joy in the heart of Prague.",
+      desc: "At Miboo we craft proper bubble tea, silky matcha, aromatic coffee and fruity smoothies. Come enjoy a little bit of joy in the heart of Prague.",
       ctaMenu: "View the menu",
       ctaLocation: "Find us",
       address: "Husova 8, Prague 1",
@@ -453,7 +453,7 @@ export const translations: Record<Lang, Dictionary> = {
         "Drinks lineup from above",
         "Barista preparing bubble tea",
         "Friends with drinks in central Prague",
-        "Smoothie and lemonade made from fresh fruit",
+        "Smoothie and matcha latte made from fresh fruit",
       ],
     },
     hours: {
@@ -492,7 +492,7 @@ export const translations: Record<Lang, Dictionary> = {
         {
           name: "Jakub M.",
           rating: 5,
-          text: "Great yuzu lemonade and a perfect spot in the center. I come here regularly for coffee.",
+          text: "Great matcha latte and a perfect spot in the center. I come here regularly for coffee.",
         },
         {
           name: "Anna K.",
@@ -504,7 +504,7 @@ export const translations: Record<Lang, Dictionary> = {
       starsLabel: (rating) => `Rating ${rating} out of 5`,
     },
     footer: {
-      tagline: "Bubble tea, lemonade, coffee and smoothies in the heart of Prague.",
+      tagline: "Bubble tea, milk tea, matcha, coffee and smoothies in the heart of Prague.",
       contactTitle: "Contact",
       menuTitle: "Menu",
       menuItems: ["Winter Specials", "Bubble Tea", "Milk Tea", "Matcha", "Smoothies", "Hot Drinks"],
