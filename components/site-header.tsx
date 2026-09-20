@@ -18,16 +18,19 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        <Link href="#" className="flex items-center gap-2" aria-label="Miboo">
+      <div className="mx-auto flex h-20 max-w-6xl items-center justify-between px-4">
+        <Link href="#" className="flex items-center gap-3" aria-label="Miboo">
           <Image
             src="/images/miboo-logo.png"
             alt="Miboo — Bubble Tea & Smoothies"
-            width={120}
-            height={120}
+            width={160}
+            height={160}
             priority
-            className="h-12 w-auto"
+            className="h-16 w-auto"
           />
+          <span className="font-display text-2xl font-bold text-foreground">
+            Miboo
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
