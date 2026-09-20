@@ -1,7 +1,6 @@
 "use client"
 
-import Link from "next/link"
-import { MapPin, Clock, Instagram } from "lucide-react"
+import { MapPin, Clock } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 
 export function SiteFooter() {
@@ -46,20 +45,9 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-border py-5">
-        <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-4 sm:flex-row sm:justify-between">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Miboo. {t.footer.rights}
-          </p>
-          <Link
-            href="https://www.instagram.com/miboo.prague"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-sm font-semibold text-muted-foreground transition-colors hover:text-primary"
-          >
-            <Instagram className="h-4 w-4" />
-            @miboo.prague
-          </Link>
-        </div>
+        <p className="text-center text-sm text-muted-foreground">
+          © {new Date().getFullYear()} Miboo. {t.footer.rights}
+        </p>
       </div>
     </footer>
   )
