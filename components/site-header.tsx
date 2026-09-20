@@ -18,7 +18,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex h-20 max-w-6xl items-center justify-between px-4">
+      <div className="mx-auto flex h-24 max-w-6xl items-center justify-between px-4">
         <Link href="#" className="flex items-center gap-3" aria-label="Miboo">
           <Image
             src="/images/miboo-logo.png"
@@ -28,7 +28,7 @@ export function SiteHeader() {
             priority
             className="h-16 w-auto"
           />
-          <span className="font-display text-2xl font-bold text-foreground">
+          <span className="font-display text-4xl font-black leading-none text-foreground md:text-5xl">
             Miboo
           </span>
         </Link>
