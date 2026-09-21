@@ -52,13 +52,13 @@ export function SiteFooter() {
             © {new Date().getFullYear()} Miboo. {t.footer.rights}
           </p>
           <Link
-            href="https://www.instagram.com/miboo.prague"
+            href="https://www.instagram.com/mibooprague"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm font-semibold text-muted-foreground transition-colors hover:text-primary"
           >
             <InstagramIcon className="h-4 w-4" />
-            @miboo.prague
+            @mibooprague
           </Link>
         </div>
       </div>
