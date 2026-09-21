@@ -11,8 +11,7 @@ export function SiteHeader() {
 
   const navItems = [
     { label: t.nav.menu, href: "#menu" },
-    // Galerie je dočasně skrytá, dokud nebudou k dispozici fotky.
-    // { label: t.nav.gallery, href: "#galerie" },
+    { label: t.nav.gallery, href: "#galerie" },
     { label: t.nav.hours, href: "#hodiny" },
     { label: t.nav.location, href: "#kontakt" },
     { label: t.nav.reviews, href: "#recenze" },

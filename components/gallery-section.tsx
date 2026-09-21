@@ -4,12 +4,9 @@ import Image from "next/image"
 import { useLanguage } from "@/components/language-provider"
 
 const photos = [
-  { src: "/images/gallery-1.png", span: "md:col-span-2 md:row-span-2" },
-  { src: "/images/gallery-2.png", span: "" },
-  { src: "/images/gallery-3.png", span: "" },
-  { src: "/images/gallery-4.png", span: "" },
-  { src: "/images/gallery-5.png", span: "" },
-  { src: "/images/gallery-6.png", span: "md:col-span-2" },
+  { src: "/images/gallery-prague-neon.jpg", span: "col-span-2 md:row-span-2" },
+  { src: "/images/gallery-oreo-cheese.jpg", span: "md:row-span-2" },
+  { src: "/images/gallery-old-town-square.jpg", span: "md:row-span-2" },
 ]
 
 export function GallerySection() {

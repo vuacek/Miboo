@@ -17,7 +17,7 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: 'Miboo — Bubble Tea, Praha 1',
   description:
-    'Miboo — bubble tea, mléčné čaje, matcha, káva a smoothie v srdci Prahy. Husova 8, Praha 1. Otevřeno každý den 10:00–22:00.',
+    'Miboo — bubble tea, limonáda, káva a smoothie v srdci Prahy. Husova 8, Praha 1. Otevřeno každý den 10:00–22:00.',
   generator: 'v0.app',
   icons: {
     icon: [
