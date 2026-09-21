@@ -2,9 +2,9 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { Instagram } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { LanguageToggle } from "@/components/language-toggle"
+import { InstagramIcon } from "@/components/icons/instagram"
 
 export function SiteHeader() {
   const { t } = useLanguage()
@@ -54,7 +54,7 @@ export function SiteHeader() {
             aria-label="Instagram @miboo.prague"
             className="flex h-9 w-9 items-center justify-center rounded-full text-muted-foreground transition-colors hover:bg-muted hover:text-primary"
           >
-            <Instagram className="h-5 w-5" />
+            <InstagramIcon className="h-5 w-5" />
           </Link>
           <LanguageToggle />
           <Link

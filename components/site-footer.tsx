@@ -1,8 +1,9 @@
 "use client"
 
 import Link from "next/link"
-import { MapPin, Clock, Instagram } from "lucide-react"
+import { MapPin, Clock } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
+import { InstagramIcon } from "@/components/icons/instagram"
 
 export function SiteFooter() {
   const { t } = useLanguage()
@@ -56,7 +57,7 @@ export function SiteFooter() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm font-semibold text-muted-foreground transition-colors hover:text-primary"
           >
-            <Instagram className="h-4 w-4" />
+            <InstagramIcon className="h-4 w-4" />
             @miboo.prague
           </Link>
         </div>
