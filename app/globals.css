@@ -126,3 +126,24 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes leaf-drift {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(6px, -10px);
+  }
+}
+
+.animate-leaf-drift {
+  animation: leaf-drift 6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-leaf-drift {
+    animation: none;
+  }
+}
+

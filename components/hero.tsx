@@ -4,12 +4,14 @@ import Image from "next/image"
 import Link from "next/link"
 import { MapPin, Clock } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
+import { AutumnLeaves } from "@/components/decor/autumn-leaves"
 
 export function Hero() {
   const { t } = useLanguage()
 
   return (
     <section className="relative overflow-hidden">
+      <AutumnLeaves />
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
         <div className="flex flex-col items-start gap-6">
           <span className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-sm font-bold text-secondary-foreground">
